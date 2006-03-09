@@ -1,0 +1,21 @@
+--- etswitch-0.1.8/etswitch.desktop.in~	2006-03-09 20:43:12.000000000 +0100
++++ etswitch-0.1.8/etswitch.desktop.in	2006-03-09 20:45:19.568592250 +0100
+@@ -4,15 +4,9 @@
+ Name=ETSwitch
+ GenericName=Game switcher
+ Comment=ETSwitch version @VERSION@
+-
+-Name[sv_SE]=ETSwitch
+-GenericName[sv_SE]=Game switcher
+-Comment[sv_SE]=ETSwitch version @VERSION@
+-
+-Name[fi_FI]=ETSwitch
+-GenericName[fi_FI]=Peli vaihtaja
+-Comment[fi_FI]=ETSwitch versio @VERSION@
+-
++GenericName[fi]=Peli vaihtaja
++Comment[fi]=ETSwitch versio @VERSION@
++GenericName[pl]=Minimalizacja gier
+ Exec=etswitch --no-delay
+ Icon=etswitch.png
+ Terminal=false
