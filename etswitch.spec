@@ -11,23 +11,26 @@ Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-home_etc.patch
 URL:		http://hem.bredband.net/b400150/
 BuildRequires:	X11-devel
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Etswitch is a program allowing *nix users to minimize Enemy Territory
 (and a plethora of other games) easily much in the same way as ETmin or
-q3min for m$ users.
+q3min for Windows users.
 
-Aside from Wolf ET, et switch also supports 21 other games available to
-linux users.
+Aside from Wolf ET, etswitch also supports 21 other games available to
+Linux users.
 
 %description -l pl
-Etswitch to program pozwalaj±cy u¿ytkownikom systemów *nix na
-minimalizacjê Enemy Territory (oraz wielu innych gier) w ten sam wygodny
-sposób jak aplikacje ETmin lub q3min dla u¿ytkowników systemów Windows.
+Etswitch to program pozwalaj±cy u¿ytkownikom systemów uniksowych na
+minimalizacjê Enemy Territory (oraz wielu innych gier) w ten sam
+wygodny sposób jak aplikacje ETmin lub q3min dla u¿ytkowników systemów
+Windows.
+
+Oprócz Wolf ET etswitch obs³uguje 21 innych gier dostêpnych dla
+u¿ytkowników Linuksa.
 
 %prep
 %setup -q
@@ -35,7 +38,6 @@ sposób jak aplikacje ETmin lub q3min dla u¿ytkowników systemów Windows.
 %patch1 -p1
 
 %build
-%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
