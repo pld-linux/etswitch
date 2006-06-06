@@ -9,7 +9,7 @@ Source0:	http://hem.bredband.net/b400150/etswitch/%{name}-%{version}.tar.gz
 # Source0-md5:	bc76ea975083c29098c3623398bed356
 Patch0:		%{name}-desktop.patch
 URL:		http://hem.bredband.net/b400150/
-BuildRequires:	X11-devel
+BuildRequires:	XFree86-devel
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
