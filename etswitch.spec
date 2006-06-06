@@ -1,16 +1,15 @@
 Summary:	A *nix 'minimizer' for a few games
 Summary(pl):	Aplikacja do minimalizowania okien gier
 Name:		etswitch
-Version:	0.1.8
+Version:	0.1.13
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Games
 Source0:	http://hem.bredband.net/b400150/etswitch/%{name}-%{version}.tar.gz
-# Source0-md5:	37bb53ed18e729e688dcbe9694d1a1ce
+# Source0-md5:	bc76ea975083c29098c3623398bed356
 Patch0:		%{name}-desktop.patch
-Patch1:		%{name}-home_etc.patch
 URL:		http://hem.bredband.net/b400150/
-BuildRequires:	X11-devel
+#BuildRequires:	X11-devel
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -35,7 +34,6 @@ u¿ytkowników Linuksa.
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
 
 %build
 %{__aclocal}
