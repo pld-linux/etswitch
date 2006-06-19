@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Etswitch is a program allowing *nix users to minimize Enemy Territory
-(and a plethora of other games) easily much in the same way as ETmin or
-q3min for Windows users.
+(and a plethora of other games) easily much in the same way as ETmin
+or q3min for Windows users.
 
 Aside from Wolf ET, etswitch also supports 21 other games available to
 Linux users.
