@@ -61,4 +61,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/etswitch
 %{_mandir}/man1/etswitch.1*
 %{_pixmapsdir}/*
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
