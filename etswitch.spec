@@ -1,5 +1,5 @@
 Summary:	A *nix 'minimizer' for a few games
-Summary(pl.UTF-8):   Aplikacja do minimalizowania okien gier
+Summary(pl.UTF-8):	Aplikacja do minimalizowania okien gier
 Name:		etswitch
 Version:	0.1.14
 Release:	1
