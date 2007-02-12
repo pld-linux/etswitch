@@ -1,5 +1,5 @@
 Summary:	A *nix 'minimizer' for a few games
-Summary(pl):	Aplikacja do minimalizowania okien gier
+Summary(pl.UTF-8):   Aplikacja do minimalizowania okien gier
 Name:		etswitch
 Version:	0.1.14
 Release:	1
@@ -25,14 +25,14 @@ or q3min for Windows users.
 Aside from Wolf ET, etswitch also supports 21 other games available to
 Linux users.
 
-%description -l pl
-Etswitch to program pozwalaj±cy u¿ytkownikom systemów uniksowych na
-minimalizacjê Enemy Territory (oraz wielu innych gier) w ten sam
-wygodny sposób jak aplikacje ETmin lub q3min dla u¿ytkowników systemów
+%description -l pl.UTF-8
+Etswitch to program pozwalajÄ…cy uÅ¼ytkownikom systemÃ³w uniksowych na
+minimalizacjÄ™ Enemy Territory (oraz wielu innych gier) w ten sam
+wygodny sposÃ³b jak aplikacje ETmin lub q3min dla uÅ¼ytkownikÃ³w systemÃ³w
 Windows.
 
-Oprócz Wolf ET etswitch obs³uguje 21 innych gier dostêpnych dla
-u¿ytkowników Linuksa.
+OprÃ³cz Wolf ET etswitch obsÅ‚uguje 21 innych gier dostÄ™pnych dla
+uÅ¼ytkownikÃ³w Linuksa.
 
 %prep
 %setup -q
